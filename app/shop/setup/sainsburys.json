@@ -91,6 +91,16 @@
         ],
         "Category": [
             {
+                "_id": "a1",
+                "type": "Category",
+                "heading": "Featured",
+                "position": "hero",
+                "description": "Discover our featured food and drinks, from a classic English breakfast to a hearty Sunday roast",
+                "image": {
+                    "pathname": "sainsburys-images/sundayroast.jpg"
+                }
+            },
+            {
                 "_id": "b1",
                 "type": "Category",
                 "heading": "Breakfast",
