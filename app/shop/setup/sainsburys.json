@@ -1,0 +1,125 @@
+{
+    "tenant": {
+        "partition_key": "beachside",
+        "name": "Beachside Canteen",
+        "welcomeMessage": "Welcome to Beachside Canteen!",
+        "description": "We are a food ordering app that allows you to order food from a variety of restaurants and cuisines",
+        "image": {
+            "pathname": "food-images/canteen.jpg"
+        },
+        "assistantName": "Debbie",
+        "assistantImage": {
+            "url": "https://randomuser.me/api/portraits/women/44.jpg"
+        },
+        "assistantGrounding": "A helpful canteen server at Beachside Canteen.  You introduce yourself and offer to guide customers through their food choices, and let them know they can also navigate using the blue links on the screen. You are going to help customers choose from the available food products"
+    },
+    "images": {},
+    "products": {
+        "Product": [
+            {
+                "_id": "5f524a71d9162b5c72877681",
+                "type": "Product",
+                "heading": "Pasta with tomatoes and spinach",
+                "position": "normal",
+                "category_id": "d1",
+                "description": "A simple and delicious meal, spaghetti with tomato sauce and lightly fried spinach.",
+                "price": 234,
+                "image": {
+                    "pathname": "food-images/dinner-pasta.jpg"
+                }
+            },
+            {
+                "_id": "5f524a71d9162b5c72877682",
+                "type": "Product",
+                "heading": "Shrimp Noodle soup",
+                "position": "normal",
+                "category_id": "d1",
+                "description": "Bowl of noodle soup with shrimp, meat, and vegetables. A flavorful and satisfying meal that you can find in many Asian cuisines",
+                "price": 234,
+                "image": {
+                    "pathname": "food-images/dinner-soup.jpg"
+                }
+            },
+            {
+                "_id": "Steak1",
+                "type": "Product",
+                "heading": "Sirloin Steak",
+                "position": "normal",
+                "category_id": "d1",
+                "description": "A juicy sirloin steak with a side of vegetables and potatoes. A classic and delicious meal.  A good source of protein, iron, zinc, and vitamin B12",
+                "price": 2445,
+                "image": {
+                    "pathname": "food-images/dinner-stake.jpg"
+                }
+            },
+            {
+                "_id": "salad1",
+                "type": "Product",
+                "heading": "Caesar Salad with Bacon and Flatbread",
+                "position": "normal",
+                "category_id": "s1",
+                "description": "A classic salad of crisp romaine lettuce tossed in a creamy Caesar dressing, topped with crunchy croutons, savory bacon bits, and freshly grated parmesan cheese",
+                "price": 2445,
+                "image": {
+                    "pathname": "food-images/snack-salad.jpg"
+                }
+            },
+            {
+                "_id": "cake1",
+                "type": "Product",
+                "heading": "Chocolate Cherry Cake with Creamy Layers",
+                "position": "normal",
+                "category_id": "s1",
+                "description": "A decadent dessert of moist chocolate sponge cake layered with smooth cream and topped with a rich chocolate sauce and chunks of cherries",
+                "price": 2445,
+                "image": {
+                    "pathname": "food-images/snack-cake.jpg"
+                }
+            },
+            {
+                "_id": "gronola1",
+                "type": "Product",
+                "heading": "Yogurt Parfait with Granola and Fruits",
+                "position": "normal",
+                "category_id": "b1",
+                "description": "A creamy yogurt parfait layered with crunchy granola and topped with a medley of fresh blueberries, red currants, and strawberries.",
+                "price": 2445,
+                "image": {
+                    "pathname": "food-images/breakfast-granola.jpg"
+                }
+            }
+        ],
+        "Category": [
+            {
+                "_id": "b1",
+                "type": "Category",
+                "heading": "Breakfast",
+                "position": "hero",
+                "description": "Start your day with a hearty English breakfast or enjoy a continental breakfast with fresh pastries and fruits",
+                "image": {
+                    "pathname": "food-images/breakfast.jpg"
+                }
+            },
+            {
+                "_id": "s1",
+                "type": "Category",
+                "heading": "Snacks",
+                "position": "highlight",
+                "description": "Choose from a range of tasty and balanced snacks, or indulge in our home made cakes and desserts",
+                "image": {
+                    "pathname": "food-images/snack.jpg"
+                }
+            },
+            {
+                "_id": "d1",
+                "type": "Category",
+                "heading": "Lunch & Dinner",
+                "position": "highlight",
+                "description": "Explore new tastes with a diverse and adventurous dinner with our ethnic and fusion dishes",
+                "image": {
+                    "pathname": "food-images/dinner.jpg"
+                }
+            }
+        ]
+    }
+}
